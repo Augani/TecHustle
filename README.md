@@ -15,3 +15,4 @@ $ cd billableMobile
 $ expo start
 ```
 If you don't have expo installed, you can get the file from the build folder and run on any android device
+Default login is username = Root, password = 1234
