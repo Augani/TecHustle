@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+body{
+   margin: 0;
+   padding: 0;
+   font-family: 'Montserrat', sans-serif;
+   width: 100vw;
+   
+   height: 100vh;
+}
+
+/* #section-to-print, #section-to-print * {
+    visibility: visible;
+  } */
+
+ 
+.printarea {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+a.nav-logo-name{
+    font-size: 1.5em;
+    color: rgb(7, 0, 12);
+    text-decoration: none;
+    /* font-weight: 600; */
+    -webkit-font-smoothing: auto;
+}
+
+section.nav{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+   background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    box-shadow: 0 2px 10px rgb(206, 206, 211);
+    align-items: center;
+}
+
+.m-10{
+    margin: 10px;
+}
+
+.p-10{
+    padding: 10px;
+}
+
+.pl-10{
+    padding-left: 10px;
+}
+.pr-10{
+    padding-right: 10px;
+}
+.pt-10{
+    padding-top: 10px;
+}
+.pb-10{
+    padding-bottom: 10px;
+}
+
+
+@media (max-width: 600px){
+    a.nav-logo-name{
+        font-size: 1.2em;
+        
+    }
+    section.nav{
+       
+        height: 7%;
+      
+    }
+    .main-page{
+        width: 90%;
+        margin: auto;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0px 1px 1px grey;
+    
+    }
+
+    .main-page-selection{
+        width: 100%;
+    }
+}
+
+section.main{
+    width: 100%;
+    height: 80%;
+    display: flex;
+ 
+    justify-content: center;
+}
+
+.main-page{
+    width: 50%;
+    margin: auto;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 1px 1px grey;
+
+}
+
+.main-page-selection{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.form-group>button{
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    height: 35px;
+    width: 90px;
+    font-size: large;
+    border: 0px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    box-shadow: 1px 1px 2px grey;
+}
+
+.form-group>button:active{
+  transform: scale(0.8);
+
+}
+
+
+select *{
+    background: black !important;
+    color: white !important;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.form-group>label{
+   margin-bottom: 10px;
+
+}
+
+.form-group>select{
+    height: 30px;
+    border: 1px grey solid;
+    background-color: white;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.form-group>select:hover{
+   
+    border: 1px rgb(12, 11, 11) solid;
+    
+}
+
+table{
+    width: 80%;
+    margin: 0 auto;
+}
+
+table tbody tr{
+    padding-bottom: 40px !important;
+
+}
